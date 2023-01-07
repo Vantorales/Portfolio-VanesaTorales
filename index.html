@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Vanesa</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="/assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="/assets/stylesheet/index.css">
+    <link rel="stylesheet" href="/assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="/assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="/assets/img/icon-star-girl.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home </a>
+            <a href="#sobreMi">Acerca de mí </a>
+            <a href="#habilidades">Habilidades </a>
+            <a href="#formacion">Formación </a>
+            <a href="#proyectos">Proyectos </a>
+            <a href="#contacto">Contacto </a>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="/assets/img/img-comp.png">
+            </picture>
+            
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1">Hola! soy</p>
+                    <p class="home_text-2">Vanesa Torales</p>
+                    <span id="auto-input" class="home_text-3 text-type"></span>
+                    <span aria-hidden="true"></span>
+                </div>
+
+                <div class="container_parrafo-info">
+                    <p>Estudiante autodidacta, entusiasta y admiradora de la tecnología. Próximamente estudiante de Ingenieria en Sistemas de la Información en la Universidad Tecnológica Nacional (Bs.As)</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="https://drive.google.com/file/d/1oyjF0UjWQTE_0aoA4-AEtATb112ZL59l/view?usp=sharing" target="_blank">
+                        <button class="cv_button"><a href="assets/cv/CV-Vanesa-Torales.pdf" download="CV-Vanesa-Torales">Descargar Cv</a></button>
+                    </a>
+                    <a href="#contacto">
+                        <button class="contact_button">Contacto</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a href="https://www.linkedin.com/in/vantorales/" target="_blank">
+                    <img src="/assets/img/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                </a>
+                <a href="https://github.com/Vantorales" target="_blank">
+                    <img src="/assets/img/icon-github.png" alt="GitHub" class="icon-github">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class="sobreMi" id="sobreMi">
+            <h1>Acerca de mí 👩🏻‍💻</h1>
+
+            <div class="container_content-sobreMi">
+                <div class="container_texto-sobreMi">
+                    <span class="title_sobreMi">Vanesa Torales</span>
+                    <span class="texto_sobreMi">Soy una estudiante tenaz y apasionada por la tecnología, con buenas relaciones interpersonales y capacidad para trabajar en equipo. Busco aplicar mis conocimientos en nuevos desafíos, continuar aprendiendo y conseguir mi primera experiencia laboral en el mundo IT.</span>
+                </div>
+    
+                <picture class="container_image-sobreMi" data-aos="fade-right">
+                    <img class="image_sobreMi" src="/assets/img/img-about-me.png">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1>Habilidades técnicas 🤓</h1>
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/img/icon-html.png" alt="Icono de HTML">
+                    <p>HTML</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="/assets/img/icon-css.png" alt="Icono de CSS">
+                    <p>CSS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="/assets/img/icon-js.png" alt="Icono de JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="/assets/img/icon-nodejs.png" alt="Icono de Node.Js">
+                    <p>Node.JS</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="/assets/img/icon-java.png" alt="Icono de Java">
+                    <p>Java</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="/assets/img/icon-POO.png" alt="Icono de Poo">
+                    <p>POO</p>
+                </div>
+                
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="/assets/img/icon-mogodb.png" alt="Icono de MongoDB">
+                    <p>MONGO.DB</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="/assets/img/icon-mysql.png" alt="Icono de Mysql">
+                    <p>My SQL</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="/assets/img/icon-github-hab.png" alt="Icono de GitHub">
+                    <p>GitHub</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="/assets/img/icon-postman.png" alt="Icono de Postman">
+                    <p>Postman</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1>Formación 👩🏻‍🎓</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-unal" src="/assets/img/icon-comit.png">
+                    <div class="container_texto--formacion">
+                        <p>Programación fullstack con Node.Js</p>
+                        <p>Institucion: Comunidad It.</p>
+                        <p>Año: 2021.</p>
+                        <p>Duración: 3 meses.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-one" src="/assets/img/icon-arg-prog.png">
+                    <div class="container_texto--formacion">
+                        <p>Argentina Programa (dos estapas)</p>
+                        <p>Institucion: Ministerio de Desarrollo Productivo.</p>
+                        <p>Año: 2021.</p>
+                        <p>Duración: 7 meses.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="/assets/img/icon-egg.png">
+                    <div class="container_texto--formacion">
+                        <p>Programación fullstack con Java</p>
+                        <p>Institucion: Egg Educacion.</p>
+                        <p>Año: 2021-2022.</p>
+                        <p>Duración: 9 meses.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <img class="logo-sena" src="/assets/img/icon-ed-it.png" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p>Programación fullstack MERN</p>
+                        <p>Institucion: Fundacion Pescar / Santander / J.P. MOrgan / Educacion IT.</p>
+                        <p>Año: 2022.</p>
+                        <p>Duración: 6 meses.</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <img class="logo-sena" src="/assets/img/icon-utn.jpg" alt="Logo - SENA">
+                    <div class="container_texto--formacion">
+                        <p>Ingenieria en Sistemas de la Información</p>
+                        <p>Institucion: Universidad Tecnológica Nacional de Buenos Aires.</p>
+                        <p>Año: 2023.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1>Proyectos 🚀</h1>
+
+            <div class="cards_container--proyectos">
+
+                <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos" >
+                        <img src="/assets/img/myvet.png" alt="Proyecto: My Vet">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>My Vet</h2>
+                        <p>Es un software que sirve como herramienta de gestión y organización para doctores veterinarios. Busca ayudar al profesional para aprovechar al máximo sus recursos.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                         <a href="https://github.com/Vantorales/My-Vet" target="_blank">
+                            <button class="btn_repo">
+                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div  class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="/assets/img/wtfood.png" alt="Proyecto: WTFood">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <h2>WTFood</h2>
+                        <p>Es un sitio pensado para ayudar a responder la pregunta "What the fuck comemos hoy?" con los pocos ingredientes que dispongamos. Hecho en equipo</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Vantorales/WTFood" target="_blank">
+                            <button class="btn_repo">
+                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="/assets/img/idear.png" alt="Proyecto: IDEAR">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>IDE.AR</h2>
+                        <p>El proyecto busca conectar a usuarios que tengan un proyecto o una idea, con gente que les permita colaborar y surtirse de conocimientos con respecto a programación o por fuera de esta.</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Vantorales/IdeAR-front" target="_blank">
+                            <button class="btn_repo">
+                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="/assets/img/piedra-papel-tijera.png" alt="Proyecto: Piedra-papel-tijera">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2>Juego piedra, papel, tijera</h2>
+                        <p>El clásico juego de Piedra, Papel o Tijera pero vs. la computadora :)</p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://github.com/Vantorales/Piedra-papel-tijera" target="_blank">
+                            <button class="btn_repo">
+                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1>Contacto 💌</h1>
+
+            <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    
+                <div class="container--contacto">
+                    <div class="container_text--contacto">
+                        <p>Completá el siguiente formulario y me pondré en contacto lo antes posible.</p>
+                    </div>
+    
+                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
+                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required>
+                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
+    
+                        <div class="btn_form--contacto">
+                            <button id="btn-enviar" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="https://www.linkedin.com/in/vantorales/" target="_blank">
+                    <img src="/assets/img/icon-linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Vantorales" target="_blank">
+                    <img src="/assets/img/icon-github.png" alt="GitHub">
+                </a>
+            </div>
+
+            <div class="container_text--footer">
+                <span>Copyright © | Coded with 💛 </span>
+                <span>by</span>
+                <span>Vanesa Torales</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            let typed = new Typed("#auto-input", {
+                strings: [
+                    "Desarrolladora web Back-end"
+                ],
+                typeSpeed: 90,
+                backSpeed: 90,
+                loop: true,
+            });
+        </script>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+</html>
