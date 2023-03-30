@@ -11,10 +11,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="/assets/stylesheet/loader.css">
-    <link rel="stylesheet" href="/assets/stylesheet/index.css">
-    <link rel="stylesheet" href="/assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
-    <link rel="stylesheet" href="/assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+    <link rel="stylesheet" href="./assets/stylesheet/textEffect.css">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
 
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +35,7 @@
     </div>
 
     <header class="header">
-        <img src="/assets/img/pixelcomputer (1).png" alt="Logo Portafolio" class="logo__header">
+        <img src="./assets/img/pixelcomputer (1).png" alt="Logo Portafolio" class="logo__header">
 
         <nav class="nav_menu not-active">
             <a href="#home" class="active">Home </a>
@@ -53,36 +56,30 @@
     <main>
         <!-- Home -->
         <section class="home" id="home">
-            <!-- <video src="https://www.youtube.com/watch?v=fG_po4mdIgk"  autoplay="true" muted="true" loop="true" ></video> -->
             <picture class="container_image-home" data-aos="zoom-in">
-                <img class="image_home" src="assets/img/cyber-img-removebg.png">
+                <img class="image_home" src="./assets/img/cat-program.png">
             </picture>
-            <div id="luces-neon">
-                <ul>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                </ul>
-              </div>
             
             <div class="home_info">
                 <div class="container_text-info">
                     <p class="home_text-1">Hello world :)</p>
-                    <p class="home_text-2">soy Vanesa Torales</p>
-                    <span id="auto-input" class="home_text-3 text-type"></span>
+                    <p class="home_text-2">Soy<span style="color:greenyellow"> Vanesa Torales</span></p>
+                    <span id="auto-input" class="home_text-3 text-type">Desarrolladora fullstack</span>
                     <span aria-hidden="true"></span>
                 </div>
 
                 <div class="container_parrafo-info">
-                    <p>Estudiante autodidacta, entusiasta y admiradora de la tecnología. Próximamente estudiante de Ingenieria en Sistemas de la Información en la Universidad Tecnológica Nacional (Bs.As)</p>
+                    <p>Soy una estudiante autodidacta, y apasionada por la
+                        tecnología con ganas de insertarme laboralmente en el
+                        rubro IT, aportando de mi parte la mayor
+                        predisposición, responsabilidad, ingenio y proactividad.
+                        Busco de adquirir nuevas experiencias donde pueda
+                        implementar mis conocimientos técnicos para aportar
+                        valor tanto a la empresa como al equipo.</p>
                 </div>
 
                 <div class="container_button">
-                    <a class="cv_button" href="assets/cv/CV-Vanesa-Torales.pdf" download="CV-Vanesa-Torales">
+                    <a class="cv_button" href="./assets/cv/CV-Vanesa-Torales (3).pdf" download="CV-Vanesa-Torales">
                         Descargar CV
                     </a>
                     </a>
@@ -94,10 +91,10 @@
 
             <div class="links">
                 <a href="https://www.linkedin.com/in/vantorales/" target="_blank">
-                    <img src="/assets/img/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
+                    <img src="./assets/img/icon-linkedin.png" alt="LinkedIn" class="icon-linkedin">
                 </a>
                 <a href="https://github.com/Vantorales" target="_blank">
-                    <img src="/assets/img/icon-github.png" alt="GitHub" class="icon-github">
+                    <img src="./assets/img/icon-github.png" alt="GitHub" class="icon-github">
                 </a>
             </div>
         </section>
@@ -113,7 +110,7 @@
                 </div>
     
                 <picture class="container_image-sobreMi" data-aos="fade-right">
-                    <img class="image_sobreMi" src="/assets/img/decoration.png">
+                    <img class="image_sobreMi" src="./assets/img/paw-hand-removebg-preview.png">
                 </picture>
             </div>
         </section>
@@ -124,52 +121,57 @@
 
             <div class="cards_container--habilidades">
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-                    <img src="/assets/img/icon-html.png" alt="Icono de HTML">
+                    <img src="./assets/img/icon-html.png" alt="Icono de HTML">
                     <p>HTML</p>
                 </div>
                 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
-                    <img src="/assets/img/icon-css.png" alt="Icono de CSS">
+                    <img src="./assets/img/icon-css.png" alt="Icono de CSS">
                     <p>CSS</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="/assets/img/icon-js.png" alt="Icono de JavaScript">
+                    <img src="./assets/img/icon-js.png" alt="Icono de JavaScript">
                     <p>JavaScript</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="/assets/img/icon-nodejs.png" alt="Icono de Node.Js">
+                    <img src="./assets/img/icon-nodejs.png" alt="Icono de Node.Js">
                     <p>Node.JS</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-                    <img src="/assets/img/icon-java.png" alt="Icono de Java">
+                    <img src="./assets/img/icon-java.png" alt="Icono de Java">
                     <p>Java</p>
                 </div>
 
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/img/icon-csharp.png" alt="Icono de C#">
+                    <p>C#</p>
+                </div>
+
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="/assets/img/icon-POO.png" alt="Icono de Poo">
+                    <img src="./assets/img/icon-POO.png" alt="Icono de Poo">
                     <p>POO</p>
                 </div>
                 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="/assets/img/icon-mogodb.png" alt="Icono de MongoDB">
+                    <img src="./assets/img/icon-mogodb.png" alt="Icono de MongoDB">
                     <p>MONGO.DB</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-                    <img src="/assets/img/icon-mysql.png" alt="Icono de Mysql">
+                    <img src="./assets/img/icon-mysql.png" alt="Icono de Mysql">
                     <p>My SQL</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="/assets/img/icon-github-hab.png" alt="Icono de GitHub">
+                    <img src="./assets/img/icon-github-hab.png" alt="Icono de GitHub">
                     <p>GitHub</p>
                 </div>
 
                 <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-                    <img src="/assets/img/icon-postman.png" alt="Icono de Postman">
+                    <img src="./assets/img/icon-postman.png" alt="Icono de Postman">
                     <p>Postman</p>
                 </div>
 
@@ -182,7 +184,7 @@
 
             <div class="cards_container--formacion">
                 <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-unal" src="/assets/img/icon-comit.png">
+                    <img class="logo-unal" src="./assets/img/icon-comit.png">
                     <div class="container_texto--formacion">
                         <p>Programación fullstack con Node.Js</p>
                         <p>Institucion: Comunidad It.</p>
@@ -192,7 +194,7 @@
                 </div>
 
                 <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
-                    <img class="logo-one" src="/assets/img/icon-arg-prog.png">
+                    <img class="logo-sena" src="./assets/img/icon-arg-prog.png">
                     <div class="container_texto--formacion">
                         <p>Argentina Programa (dos estapas)</p>
                         <p>Institucion: Ministerio de Desarrollo Productivo.</p>
@@ -202,7 +204,7 @@
                 </div>
 
                 <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-sena" src="/assets/img/icon-egg.png">
+                    <img class="logo-sena" src="./assets/img/icon-egg.png">
                     <div class="container_texto--formacion">
                         <p>Programación fullstack con Java</p>
                         <p>Institucion: Egg Educacion.</p>
@@ -212,7 +214,7 @@
                 </div>
 
                 <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
-                    <img class="logo-sena" src="/assets/img/icon-ed-it.png" alt="Logo - SENA">
+                    <img class="logo-sena" src="./assets/img/icon-ed-it.png" alt="Logo - SENA">
                     <div class="container_texto--formacion">
                         <p>Programación fullstack MERN</p>
                         <p>Institucion: Fundacion Pescar / Santander / J.P. MOrgan / Educacion IT.</p>
@@ -222,7 +224,7 @@
                 </div>
 
                 <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-                    <img class="logo-sena" src="/assets/img/icon-utn.jpg" alt="Logo - SENA">
+                    <img class="logo-sena" src="./assets/img/icon-utn.jpg" alt="Logo - SENA">
                     <div class="container_texto--formacion">
                         <p>Ingenieria en Sistemas de la Información</p>
                         <p>Institucion: Universidad Tecnológica Nacional de Buenos Aires.</p>
@@ -240,7 +242,7 @@
 
                 <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                     <div class="container_imgCard--proyectos" >
-                        <img src="/assets/img/myvet.png" alt="Proyecto: My Vet">
+                        <img src="./assets/img/myvet.png" alt="Proyecto: My Vet">
                     </div>
 
                     <div class="container_textCard--proyectos">
@@ -251,7 +253,7 @@
                     <div class="container_btn--proyectos">
                          <a href="https://github.com/Vantorales/My-Vet" target="_blank">
                             <button class="btn_repo">
-                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                                <img src="./assets/img/icon-github.png" alt="Repositorio de github">REPO
                             </button>
                         </a>
                     </div>
@@ -259,7 +261,7 @@
 
                 <div  class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                     <div class="container_imgCard--proyectos">
-                        <img src="/assets/img/wtfood.png" alt="Proyecto: WTFood">
+                        <img src="./assets/img/wtfood.png" alt="Proyecto: WTFood">
                     </div>
 
                     <div class="container_textCard--proyectos text-portafolio">
@@ -270,7 +272,7 @@
                     <div class="container_btn--proyectos">
                         <a href="https://github.com/Vantorales/WTFood" target="_blank">
                             <button class="btn_repo">
-                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                                <img src="./assets/img/icon-github.png" alt="Repositorio de github">REPO
                             </button>
                         </a>
                     </div>
@@ -278,7 +280,7 @@
 
                 <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                     <div class="container_imgCard--proyectos">
-                        <img src="/assets/img/idear.png" alt="Proyecto: IDEAR">
+                        <img src="./assets/img/idear.png" alt="Proyecto: IDEAR">
                     </div>
 
                     <div class="container_textCard--proyectos">
@@ -289,7 +291,7 @@
                     <div class="container_btn--proyectos">
                         <a href="https://github.com/Vantorales/IdeAR-front" target="_blank">
                             <button class="btn_repo">
-                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                                <img src="./assets/img/icon-github.png" alt="Repositorio de github">REPO
                             </button>
                         </a>
                     </div>
@@ -297,7 +299,7 @@
 
                 <div class="cards--proyectos" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
                     <div class="container_imgCard--proyectos">
-                        <img src="/assets/img/piedra-papel-tijera.png" alt="Proyecto: Piedra-papel-tijera">
+                        <img src="./assets/img/piedra-papel-tijera.png" alt="Proyecto: Piedra-papel-tijera">
                     </div>
 
                     <div class="container_textCard--proyectos">
@@ -308,7 +310,7 @@
                     <div class="container_btn--proyectos">
                         <a href="https://github.com/Vantorales/Piedra-papel-tijera" target="_blank">
                             <button class="btn_repo">
-                                <img src="/assets/img/icon-github.png" alt="Repositorio de github">REPO
+                                <img src="./assets/img/icon-github.png" alt="Repositorio de github">REPO
                             </button>
                         </a>
                     </div>
@@ -327,16 +329,23 @@
                         <p>Completá el siguiente formulario y me pondré en contacto lo antes posible.</p>
                     </div>
     
-                    <form id="form" class="form-contact" name="contacto-portafolio" netlify>
-                        <input id="nombre" type="text" name="name" placeholder="Nombre" required>
-                        <input id="email" type="email" name="email" placeholder="E-mail" required>
-                        <input id="asunto" type="text" name="affair" placeholder="Asunto" required>
-                        <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
+                    <form id="form" class="form-contact">
+                        <input class="effect-focus" id="name" type="text" name="name" placeholder="Nombre" required>
+                        <input class="effect-focus" id="email" type="email" name="email" placeholder="E-mail" required>
+                        <input class="effect-focus" id="affair" type="text" name="affair" placeholder="Asunto" required>
+                        <textarea class="effect-focus" id="message" cols="20" rows="4" name="message" placeholder="Mensaje" required></textarea>
     
                         <div class="btn_form--contacto">
-                            <button id="btn-enviar" type="submit">Enviar</button>
+                            <!-- <button id="btn-enviar" type="submit">Enviar</button> -->
+                            <input class="boton" type="submit" id="button" value="Enviar email" >
                         </div>
                     </form>
+                    <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+                    <script type="text/javascript">
+                    emailjs.init('ybigcqVLONcpujrG3')
+                    </script>
                 </div>
             </div>
         </section>
@@ -346,41 +355,26 @@
         <div class="contianer--footer">
             <div class="container_redes-footer">
                 <a href="https://www.linkedin.com/in/vantorales/" target="_blank">
-                    <img src="/assets/img/icon-linkedin.png" alt="LinkedIn">
+                    <img src="./assets/img/icon-linkedin.png" alt="LinkedIn">
                 </a>
                 <a href="https://github.com/Vantorales" target="_blank">
-                    <img src="/assets/img/icon-github.png" alt="GitHub">
+                    <img src="./assets/img/icon-github.png" alt="GitHub">
                 </a>
             </div>
 
             <div class="container_text--footer">
                 <span>Coded</span>
+                <img src="./assets/img/corazon.png" alt="Corazón">
                 <span>by</span>
                 <span>Vanesa Torales</span>
             </div>
         </div>
     </footer>
 
-    <div class="go-top-container">
-        <div class="go-top-button">
-            <i class="fas fa-chevron-up"></i>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <script>
-            let typed = new Typed("#auto-input", {
-                strings: [
-                    "Desarrolladora web Back-end"
-                ],
-                typeSpeed: 100,
-                backSpeed: 100,
-                loop: true,
-            });
-        </script>
 
     <!-- Archivo Js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Animaciones -->
     <script>
@@ -389,5 +383,52 @@
 
     <!-- Scripts -->
     <script src="./script.js"></script>
+    
+    <script>
+        const btnSendEmail = document.getElementById('button');
+
+        document.getElementById('form').addEventListener('submit', function(event) 
+        {
+            event.preventDefault();
+            btnSendEmail.value = 'Enviando...';
+
+            const serviceID = 'default_service';
+            const templateID = 'template_f6dnitg';
+
+            sendEmail(serviceID, templateID, this);
+
+        });
+
+
+        
+        async function sendEmail( serviceID, templateID, info )
+        {
+            try {
+                
+                let respose = await emailjs.sendForm(serviceID, templateID, info);
+                btnSendEmail.value = 'Enviar email';
+                
+                Swal.fire({
+                    title: 'Correo enviado exitosamente :)',
+                    width: 600,
+                    padding: '3em',
+                    color: '#41444B',
+                    background: '#fff url("")',
+                    backdrop: `
+                        rgba(0,0,123,0.4)
+                        url("https://sweetalert2.github.io/images/nyan-cat.gif")
+                        left top
+                        no-repeat
+                    `
+                    })
+
+
+            } catch (error) {
+                btnSendEmail.value = 'Enviar email';
+                alert(JSON.stringify(err));
+            }
+        }
+
+    </script>
 </body>
 </html>

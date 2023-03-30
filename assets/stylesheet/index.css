@@ -308,7 +308,7 @@ span+span {
     color: var(--beaver);
     background-color: var(--jet);
     width: 100%;
-    animation: typing 4s steps(28) alternate infinite;
+    animation: typing 4s steps(29) alternate infinite;
 }
 
 @keyframes typing {
@@ -316,6 +316,8 @@ span+span {
         width: 0%;
     }
 }
+
+
 
 .container_parrafo-info {
     display: none;
@@ -579,7 +581,7 @@ ul{
     align-items: center;
     text-align: center;
     width: 32rem;
-    height: 33rem;
+    height: auto;
     margin: 0 1rem 2rem 1rem;
     padding: 1rem;
     justify-content: space-between;
@@ -889,6 +891,36 @@ img.logo-sena {
     background: #6d6d4f;
 }
 
+.boton {
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #ffffff;
+    border: 2px solid;
+    border-color: #ffffff;
+    position: relative;
+  }
+  .boton:hover {
+    color: greenyellow !important;
+    -webkit-box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+    -moz-box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+    box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+  }
+  .boton:active{
+    transform: scale(0.98);
+    -webkit-box-shadow: 1px 0px 29px -14px rgba(255,250,255,1);
+    -moz-box-shadow: 1px 0px 29px -14px rgba(255,250,255,1);
+    box-shadow: 1px 0px 29px -14px rgba(255,250,255,1);
+
+  }
+
+.effect-focus:focus{
+    -webkit-box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+    -moz-box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+    box-shadow: 1px 0px 29px -8px rgba(255,250,255,1);
+}
+
 /* Footer */
 
 footer {
@@ -943,56 +975,6 @@ footer {
     color: var(--white);
     letter-spacing: .1rem;
     margin-left: .2rem;
-}
-
-/* Botón ir arriba */
-
-.go-top-container {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    width: 6rem;
-    height: 6rem;
-    z-index: -1;
-}
-
-.go-top-button {
-    width: 0rem;
-    height: 0rem;
-    background: rgb(145, 145, 145);
-    box-shadow: 0px 6px 22px -6px rgba(0,0,0,0.75);
-    border-radius: 50%;
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    transition: .2s;
-}
-
-.go-top-button i {
-    position: absolute;
-    font-size: 1.7rem;
-    top: 48%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: var(--black);
-    transition: .2s;
-}
-
-.show {
-    z-index: 10;
-}
-
-.show .go-top-button {
-    animation: popup .3s ease-in-out;
-    width: 6rem;
-    height: 6rem;
-    z-index: 11;
-}
-
-.show i {
-    transform: translate(-50%, -50%) scale(1);
 }
 
 @keyframes popup {
